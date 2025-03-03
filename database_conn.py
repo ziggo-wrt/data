@@ -5,10 +5,10 @@ from sqlalchemy.exc import SQLAlchemyError
 from datasets_cleansing import trans_df
 
 ## Database configuration
-db_host = "localhost"
-db_port = 3306
-db_user = "root"
-db_password = 2406
+db_host = ""      # Input your host
+db_port =         # Input your port  
+db_user = ""      # Input your user
+db_password =     # Input your password
 db_scmaname = "frauds_db"
 db_tablname = "transactions"
 data_insert = pd.DataFrame(trans_df)
